@@ -53,15 +53,15 @@ Analysis of the correlation between emotions and speech features with a scikit-l
 
 ![feature_importance](https://user-images.githubusercontent.com/57549068/154889483-f5f3e117-f1da-48dd-ba32-7254c7e2f24f.png)
 
-Figure 1. Top 15 features by imporatance
+<p align="center"><i>Figure 1. Top 15 features by imporatance</i></p>  
 
 
 If we first only take the highest score as input X, the accuracy score would be 0.1875, However, when we add the second most important feature, the score rises to 0.3542 which would continue to rise as we add the third, fourth ... most important features. The score peaks at 0.4722 when the 14th feature is added.
 
 ![accuracy-iteration](https://user-images.githubusercontent.com/57549068/154889507-e0651905-17f7-49c5-b8e0-421879ca6543.png)
 
-Figure 2. Best accuracy score in each iteration  
-For clearer graphs please see the original notebook.
+<p align="center"><i>Figure 2. Best accuracy score in each iteration</i></p>  
+<p align="center"><i>For clearer graphs please see the original notebook.</i></p> 
 
 Haotian Cui,  
 21-2-2022
