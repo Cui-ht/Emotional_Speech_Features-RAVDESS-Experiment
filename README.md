@@ -52,13 +52,13 @@ A glimpse of this output:
 Analysis of the correlation between emotions and speech features with a scikit-learn decision tree model. The current result of this model is that the most influential feature is "F0semitoneFrom27.5Hz_sma3nz_pctlrange0", yet its importance is only 0.0873 of all 88 features.
 
 ![feature_importance](https://user-images.githubusercontent.com/57549068/154889483-f5f3e117-f1da-48dd-ba32-7254c7e2f24f.png)
-<center><i>Figure 1. Top 15 features by imporatance</i></center>
+<center>Figure 1. Top 15 features by imporatance</center>
 
 
 
 If we first only take the highest score as input X, the accuracy score would be 0.1875, However, when we add the second most important feature, the score rises to 0.3542 which would continue to rise as we add the third, fourth ... most important features. The score peaks at 0.4722 when the 14th feature is added.
 
 ![accuracy-iteration](https://user-images.githubusercontent.com/57549068/154889507-e0651905-17f7-49c5-b8e0-421879ca6543.png)
-<center><i>Figure 2. Best accuracy score in each iteration</i></center>
-<center><i>For clearer graphs please see the original notebook.</i></
+<center>Figure 2. Best accuracy score in each iteration</center>
+<center>For clearer graphs please see the original notebook.</center>
 
