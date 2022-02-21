@@ -61,5 +61,12 @@ If we first only take the highest score as input X, the accuracy score would be 
 <p align="center"><i>Figure 2. Best accuracy score in each iteration</i></p>  
 <p align="center"><i>For clearer graphs please view in the original notebook.</i></p> 
 
+## Reference and Acknowlegment
+Thanks for Dr. Chris Carignan's kind instructions.  
+  
+Livingstone SR, Russo FA (2018) The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS): A dynamic, multimodal set of facial and vocal expressions in North American English. PLoS ONE 13(5): e0196391. https://doi.org/10.1371/journal.pone.0196391.
+  
+Eyben, F., Scherer, K., Schuller, B., Sundberg, J., Andre, E., Busso, C., . . . Truong, K. (2016). The Geneva Minimalistic Acoustic Parameter Set (GeMAPS) for Voice Research and Affective Computing. IEEE Transactions on Affective Computing, 7(2), 190-202.  
+
 <p align="right">Haotian Cui,</p>  
 <p align="right">21-2-2022</p>
