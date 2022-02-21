@@ -29,7 +29,7 @@ Example: `bash smile_egemaps_loop.sh ~/project_dir/all_audio_dir ~/project_dir/r
 
 A glimpse of the output:
 
-![image-20220221003854785](/Users/haotiancui/Library/Application Support/typora-user-images/image-20220221003854785.png)
+<img width="709" alt="图片" src="https://user-images.githubusercontent.com/57549068/154889372-e6aead56-459b-4094-afe7-ec3fd9d89ab3.png">
 
 
 
@@ -43,7 +43,7 @@ Example: `python data_preprocess.py -i project_dir/raw_output.csv -o project_dir
 
 A glimpse of this output:
 
-![image-20220221005319625](/Users/haotiancui/Library/Application Support/typora-user-images/image-20220221005319625.png)
+<img width="1088" alt="图片" src="https://user-images.githubusercontent.com/57549068/154889455-6b1d8f79-4a85-4c33-83f8-0919237a3cb9.png">
 
 
 
@@ -51,13 +51,13 @@ A glimpse of this output:
 
 Analysis of the correlation between emotions and speech features with a scikit-learn decision tree model. The current result of this model is that the most influential feature is "F0semitoneFrom27.5Hz_sma3nz_pctlrange0", yet its importance is only 0.0873 of all 88 features.
 
-![feature_importance](/Users/haotiancui/Desktop/feature_importance.png)
+![feature_importance](https://user-images.githubusercontent.com/57549068/154889483-f5f3e117-f1da-48dd-ba32-7254c7e2f24f.png)
 
 <center><i>Figure 1. Top 15 features by imporatance</i></center>
 
 If we first only take the highest score as input X, the accuracy score would be 0.1875, However, when we add the second most important feature, the score rises to 0.3542 which would continue to rise as we add the third, fourth ... most important features. The score peaks at 0.4722 when the 14th feature is added.
 
-![accuracy-iteration](/Users/haotiancui/Desktop/RAVDESS_audio/accuracy-iteration.png)
+![accuracy-iteration](https://user-images.githubusercontent.com/57549068/154889507-e0651905-17f7-49c5-b8e0-421879ca6543.png)
 
 <center><i>Figure 2. Best accuracy score in each iteration</i></center>
 
