@@ -69,5 +69,5 @@ Livingstone SR, Russo FA (2018) The Ryerson Audio-Visual Database of Emotional S
 Eyben, F., Scherer, K., Schuller, B., Sundberg, J., Andre, E., Busso, C., . . . Truong, K. (2016). The Geneva Minimalistic Acoustic Parameter Set (GeMAPS) for Voice Research and Affective Computing. IEEE Transactions on Affective Computing, 7(2), 190-202.  
   
 ## Author
-Haotian Cui
+Haotian Cui,  
 21-2-2022
