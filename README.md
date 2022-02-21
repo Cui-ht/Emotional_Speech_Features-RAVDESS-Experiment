@@ -59,7 +59,7 @@ If we first only take the highest score as input X, the accuracy score would be 
 
 ![accuracy-iteration](https://user-images.githubusercontent.com/57549068/154889507-e0651905-17f7-49c5-b8e0-421879ca6543.png)
 <p align="center"><i>Figure 2. Best accuracy score in each iteration</i></p>  
-<p align="center"><i>For clearer graphs please see the original notebook.</i></p> 
+<p align="center"><i>For clearer graphs please view in the original notebook.</i></p> 
 
 <p align="right">Haotian Cui,</p>  
 <p align="right">21-2-2022</p>
